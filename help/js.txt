@@ -1,0 +1,20 @@
+"use strict" - отключить поддержку старой JS
+let - создать переменную
+confirm('Are you here?');
++prompt('Are you here?','18');
+console.log(`https://mail.ru/${toys}`); - вставка переменной
+&& ||
+
+GIT
+
+PS D:\OSPanel\domains\JS> git init инициализация проекта
+PS D:\OSPanel\domains\JS> git config --local user.name "Alex" - установка Имени (global)
+PS D:\OSPanel\domains\JS> git config --local user.email alex_fk@bk.ru - установка email (global)
+git status - статус GIT
+git add -A - добавить все файлы в INDEX
+git add -*.css - добавить все css файлы в INDEX
+git commit -a -m"First commit" - Создание контролькой точки
+git log - логи
+git remote add origin https://github.com/alex-fk/js.git - связать с удаленным севрером
+git branch -M main
+git push -u origin main отправить на сервер
