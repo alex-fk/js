@@ -7,10 +7,11 @@ console.log(`https://mail.ru/${path}`);
 let incr = 10,
     decr = 20;
 
-    incr++;
-    decr--;
+    // incr++;
+    // decr--;
 
-    console.log(incr);
-    console.log(decr);
+    console.log(++incr);
+    console.log(--decr);
 
+    console.log(5%2);
 

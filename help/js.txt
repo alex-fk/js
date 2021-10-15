@@ -18,3 +18,18 @@ git log - логи
 git remote add origin https://github.com/alex-fk/js.git - связать с удаленным севрером
 git branch -M main
 git push -u origin main отправить на сервер
+git log --pretty=oneline -лог в одностраничном формате
+
+Alias:
+
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.st status
+git config --global alias.br branch
+git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+git config --global alias.type 'cat-file -t'
+git config --global alias.dump 'cat-file -p'
+
+GIT CLONE
+git clone https://github.com/alex-fk/js.git project2
+git pull - синхронизация изменений
