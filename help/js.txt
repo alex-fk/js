@@ -33,3 +33,37 @@ git config --global alias.dump 'cat-file -p'
 GIT CLONE
 git clone https://github.com/alex-fk/js.git project2
 git pull - синхронизация изменений
+
+for (let key in object){
+    if (typeof(object[key])=== 'options[key]'){
+        for (let i in options[key]){
+             console.log(`Свойство ${i} имеет значение ${object[key][i]}`);
+        }
+    }else{
+        console.log(`Свойство ${key} имеет значение ${object[key]}`);
+    }
+} - перебор элементов объекта
+console.log(Object.keys(объект).lenght) - количество элементов объекта
+ARRAY
+arr.pop() - удаляет последний элемент из массива
+arr.push(10) - добавляет последний элемент в массива
+arr.shift(10) - добавляет первый элемент в массива
+arr.unshift(10) - удаляет первый элемент в массива
+arr.lenght - длина массива
+
+for (let val of arr){
+    console.log(val);
+} - перебор элементов массива
+arr.forEach(function(item, i, arr){
+    item - элемент
+    i - номер элемента
+    arr - массив
+    будет выполняться каждый раз для каждого элемента массива
+});-перебор массива
+str.split(",") - сформировать строку из массива разделитель в кавычках
+str.join(";") - сформировать строку из массива разделитель в кавычках
+str.sort(compareNum) - сортировка массива
+function compareNum(a,b){
+    return a-b;
+}
+newArray.slice() - копия массива
