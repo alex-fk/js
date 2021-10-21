@@ -67,3 +67,5 @@ function compareNum(a,b){
     return a-b;
 }
 newArray.slice() - копия массива
+newArray = [...array] - копия массива
+Object.assign(newObject, oldObject)-объединение объектов

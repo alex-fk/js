@@ -16,4 +16,5 @@ let incr = 10,
     console.log(5%2);
 
     const word = "Тестовая строка 3";
-    console.log(word.slice(2, 5));
+    console.log(word.slice(2, 7));
+    console.log(Math.round());
